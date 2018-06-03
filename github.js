@@ -1,0 +1,13 @@
+class Github {
+  constructor() {
+    // the client id and secret will be reset soon, so pls clone this repository
+    // and create your own oauth app on github and fill in your own id and secret
+    // below id and secret is only use for testing purposes
+    // for best pratices the id and secret should be on a .gitignore file
+    // but since this is not for production, its ok
+    this.client_id = 'ce0e9fa370e5e4281f8e'
+    this.client_secret = 'd342e5bc9a62a3e1f5632b46684cb6326bd74c4c'
+  }
+
+  
+}
