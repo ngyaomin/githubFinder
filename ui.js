@@ -4,6 +4,6 @@ class UI {
   }
 
   showProfile(user) {
-
+    
   }
 }
