@@ -9,5 +9,7 @@ class Github {
     this.client_secret = 'd342e5bc9a62a3e1f5632b46684cb6326bd74c4c'
   }
 
-  
+  async getUser(user) {
+    const profileResponse
+  }
 }
