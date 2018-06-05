@@ -26,7 +26,12 @@ class UI {
           </div>
         </div>
       </div>
-      h3.page-heading 
+      <h3 class="page-heading mb-3">Latests Repos</h3>
+      <div id="repos"></div>
     `;
+  }
+
+  clearProfile() {
+    this.profile.innerHTML = '';
   }
 }
