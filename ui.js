@@ -31,6 +31,21 @@ class UI {
     `;
   }
 
+  showAlert(message, className) {
+    // create div
+    const div = document.createElement('div');
+    // add class
+    div.className = className;
+    // add text
+    div.appendChild(document.createTextNode(message));
+    // Get Parent
+    const container = document.querySelector('.searchContainer');
+    // get search box
+    const search = document.querySelector('.search');
+    // insert alert
+    container.insertBefore(div, search);
+  }
+
   clearProfile() {
     this.profile.innerHTML = '';
   }
